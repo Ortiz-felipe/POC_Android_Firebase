@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/empty_plant_activity">
+
+    <fragment
+        android:id="@+id/empty_plant_activity"
+        android:name="com.roots.firebasepoc.EmptyPlantsFragment"
+        android:label="@string/empty_plants_fragment_label"
+        tools:layout="@layout/empty_plants_fragment">
+        <action
+            android:id="@+id/action_empty_plant_activity_to_createPlantActivity"
+            app:destination="@id/createPlantActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/createPlantActivity"
+        android:name="com.roots.firebasepoc.CreatePlantActivity"
+        android:label="activity_create_plant"
+        tools:layout="@layout/activity_create_plant" />
+</navigation>

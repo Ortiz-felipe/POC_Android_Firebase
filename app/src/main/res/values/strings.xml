@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Roots - Firebase POC</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="empty_plants_fragment_label">Empty Plants Fragment</string>
+    <string name="list_plants_fragment_label">List of Plants</string>
+    <string name="create_plant_activity_label">Create New Plant</string>
+
+    <string name="empty_plants_list">No plants where found. Try adding some!.</string>
+    <string name="empty_plants_add_button">Add Plant</string>
+    <string name="create_plant_name_placeholder">Enter a plant name</string>
+    <string name="create_plant_species_placeholder">Enter plant species</string>
+    <string name="create_plant_age_placeholder">Enter plant age</string>
+    <string name="create_plant_date_placeholder">Select acquisition date</string>
+    <string name="create_plant_bonsaiAble_text">Bonsai able</string>
+    <string name="create_plant_origin_placeholder">Enter plant origin</string>
+    <string name="create_plant_height_placeholder">Enter plant height</string>
+    <string name="create_plant_container_type_placeholder">Enter plant container type</string>
+    <string name="create_plant_sellable_text">Sellable</string>
+    <string name="create_plant_save_button">Save</string>
+    <string name="create_plant_changePhoto_button">Select Photo</string>
+
+</resources>
